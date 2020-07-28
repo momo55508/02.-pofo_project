@@ -1,0 +1,108 @@
+body{
+
+margin: 0;
+}
+header{
+	padding: 15px 0;
+}
+.container{
+
+width: 1150px;
+
+margin: auto;
+
+display: flex;
+
+align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.log img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    display: block;
+}
+section{
+	
+}
+.section-one{
+	background: url(../images/portfolio1.jpg);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom;
+}
+.section-two{
+	background: url(../images/portfolio2.jpg);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom;
+}
+.section-three{
+	background: url(../images/portfolio3.jpg); 
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom; 
+}
+.section-four{
+	background: url(../images/portfolio4.jpg);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom;
+}
+.section-five{
+	background: url(../images/portfolio5.jpg);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom;
+}
+.section-six{
+	background: url(../images/portfolio6.jpg);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    background-color: #ff214f;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+}
